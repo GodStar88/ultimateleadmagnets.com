@@ -96,9 +96,9 @@ include 'php/session.php';
                             </a>
                         </li>
                         <li>
-                            <a class="has-arrow waves-effect waves-dark" href="file" aria-expanded="false">
+                            <a class="has-arrow waves-effect waves-dark" href="code" aria-expanded="false">
                                 <i class="mdi mdi-gauge"></i>
-                                <span class="hide-menu">File</span>
+                                <span class="hide-menu">Code</span>
                             </a>
                         </li>
                         <li>
@@ -128,58 +128,50 @@ include 'php/session.php';
         <div class="page-wrapper">
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-themecolor">File</h3>
+                    <h3 class="text-themecolor">Code</h3>
                 </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
                             <a href="javascript:void(0)">Home</a>
                         </li>
-                        <li class="breadcrumb-item active">File</li>
+                        <li class="breadcrumb-item active">Code</li>
                     </ol>
                 </div>
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="card">
+                    <div class="col-lg-4">
+                        <div class="card card-inverse card-success">
                             <div class="card-body">
-                                <h4 class="card-title">Upload File</h4>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <label for="input-file-now">Your so fresh input file</label>
-                                        <input type="file" name="fileToUpload" id="fileToUpload" class="dropify" />
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item flex-column carousel-item-next carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Bestfreebusinesstools.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user.'Bestfreebusinesstools'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Bestfreebusinesstools.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Bestfreebusinesstools.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user.'Bestfreebusinesstools'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Bestfreebusinesstools.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column active carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Bestfreebusinesstools.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user.'Bestfreebusinesstools'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Bestfreebusinesstools.com</i>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <button type="submit" class="btn waves-effect waves-light  btn-info" name="submit" id="upload">
-                                    <i class="fa fa-spinner fa-spin" style="margin-right: 8px;" id="load"></i>Upload</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">List of File</h4>
-                                <h6 class="card-subtitle">Export data to Copy, CSV, Excel, PDF & Print</h6>
-                                <div class="table-responsive m-t-40">
-                                    <table id="example23" class="display table table-hover table-striped table-bordered" cellspacing="0" width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th></th>
-                                                <th>Date</th>
-                                                <th>FileName</th>
-                                                <th>UserName</th>
-                                                <th>Download</th>
-                                                <th>Delete</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody id="content">
-                                        </tbody>
-                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -200,55 +192,14 @@ include 'php/session.php';
         <script src="assets/plugins/morrisjs/morris.min.js"></script>
         <script src="js/dashboard1.js"></script>
         <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
-        <script src="php/file/file.js"></script>
+        <script src="php/code/code.js"></script>
         <script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
         <script src="assets/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
         <script src="assets/cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
         <script src="assets/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
         <script src="assets/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
         <script src="assets/plugins/dropify/dist/js/dropify.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                // Basic
-                $('.dropify').dropify();
-
-                // Translated
-                $('.dropify-fr').dropify({
-                    messages: {
-                        default: 'Glissez-déposez un fichier ici ou cliquez',
-                        replace: 'Glissez-déposez un fichier ou cliquez pour remplacer',
-                        remove: 'Supprimer',
-                        error: 'Désolé, le fichier trop volumineux'
-                    }
-                });
-
-                // Used events
-                var drEvent = $('#input-file-events').dropify();
-
-                drEvent.on('dropify.beforeClear', function(event, element) {
-                    return confirm("Do you really want to delete \"" + element.file.name + "\" ?");
-                });
-
-                drEvent.on('dropify.afterClear', function(event, element) {
-                    alert('File deleted');
-                });
-
-                drEvent.on('dropify.errors', function(event, element) {
-                    console.log('Has Errors');
-                });
-
-                var drDestroy = $('#input-file-to-destroy').dropify();
-                drDestroy = drDestroy.data('dropify')
-                $('#toggleDropify').on('click', function(e) {
-                    e.preventDefault();
-                    if (drDestroy.isDropified()) {
-                        drDestroy.destroy();
-                    } else {
-                        drDestroy.init();
-                    }
-                })
-            });
-        </script>
+        
 </body>
 
 </html>

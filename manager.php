@@ -90,9 +90,9 @@ include 'php/session.php';
                             </a>
                         </li>
                         <li>
-                            <a class="has-arrow waves-effect waves-dark" href="file" aria-expanded="false">
+                            <a class="has-arrow waves-effect waves-dark" href="code" aria-expanded="false">
                                 <i class="mdi mdi-gauge"></i>
-                                <span class="hide-menu">File</span>
+                                <span class="hide-menu">Code</span>
                             </a>
                         </li>
                         <li>
