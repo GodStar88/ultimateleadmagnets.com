@@ -150,7 +150,7 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column carousel-item-next carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Bestfreebusinesstools.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user.'Bestfreebusinesstools'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span></h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Bestfreebusinesstools.com</i>
                                             </div>
@@ -158,7 +158,7 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Bestfreebusinesstools.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user.'Bestfreebusinesstools'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span></h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Bestfreebusinesstools.com</i>
                                             </div>
@@ -166,9 +166,45 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column active carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Bestfreebusinesstools.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user.'Bestfreebusinesstools'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span></h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Bestfreebusinesstools.com</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card card-inverse card-danger">
+                            <div class="card-body">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item flex-column carousel-item-next carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">socialproofpower.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use socialproofpower.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">socialproofpower.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use socialproofpower.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column active carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">socialproofpower.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use socialproofpower.com</i>
                                             </div>
                                         </div>
                                     </div>
@@ -199,7 +235,7 @@ include 'php/session.php';
         <script src="assets/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
         <script src="assets/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
         <script src="assets/plugins/dropify/dist/js/dropify.min.js"></script>
-        
+
 </body>
 
 </html>
