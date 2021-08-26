@@ -212,6 +212,42 @@ include 'php/session.php';
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-4">
+                        <div class="card card-inverse card-success">
+                            <div class="card-body">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item flex-column carousel-item-next carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Secretsofthegurus.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Secretsofthegurus.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Secretsofthegurus.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Secretsofthegurus.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column active carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Secretsofthegurus.com</p>
+                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span></h3>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Secretsofthegurus.com</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
