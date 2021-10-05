@@ -40,7 +40,8 @@ include 'php/session.php';
                 <div class="navbar-collapse">
                     <ul class="navbar-nav mr-auto mt-md-0">
                         <li class="nav-item">
-                            <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)">
+                            <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark"
+                                href="javascript:void(0)">
                                 <i class="mdi mdi-menu"></i>
                             </a>
                         </li>
@@ -49,7 +50,8 @@ include 'php/session.php';
                         <li class="nav-item hidden-sm-down search-box">
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src="assets/images/avatar.png" alt="user" class="profile-pic" />
                             </a>
                             <div class="dropdown-menu dropdown-menu-right scale-up">
@@ -114,12 +116,12 @@ include 'php/session.php';
                             </a>
                         </li>
                         <?php if ($login_user == "gizmo2000" || $login_user == "godstar") : ?>
-                            <li>
-                                <a class="has-arrow waves-effect waves-dark" href="manager" aria-expanded="false">
-                                    <i class="mdi mdi-table"></i>
-                                    <span class="hide-menu">Manager</span>
-                                </a>
-                            </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="manager" aria-expanded="false">
+                                <i class="mdi mdi-table"></i>
+                                <span class="hide-menu">Manager</span>
+                            </a>
+                        </li>
                         <?php endif ?>
                     </ul>
                 </nav>
@@ -150,7 +152,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column carousel-item-next carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Bestfreebusinesstools.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span></h3>
+                                            <h5 class="text-white font-light">
+                                                https://bestfreebusinesstools.com/referral?ref=<?php echo $login_user; ?>
+                                            </h5>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Bestfreebusinesstools.com</i>
                                             </div>
@@ -158,7 +162,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Bestfreebusinesstools.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span></h3>
+                                            <h5 class="text-white font-light">
+                                                https://bestfreebusinesstools.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Bestfreebusinesstools.com</i>
                                             </div>
@@ -166,7 +172,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column active carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Bestfreebusinesstools.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span></h3>
+                                            <h5 class="text-white font-light">
+                                                https://bestfreebusinesstools.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Bestfreebusinesstools.com</i>
                                             </div>
@@ -186,7 +194,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column carousel-item-next carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">socialproofpower.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span
+                                                    class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span>
+                                            </h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use socialproofpower.com</i>
                                             </div>
@@ -194,7 +204,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">socialproofpower.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span
+                                                    class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span>
+                                            </h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use socialproofpower.com</i>
                                             </div>
@@ -202,7 +214,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column active carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">socialproofpower.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span
+                                                    class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span>
+                                            </h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use socialproofpower.com</i>
                                             </div>
@@ -212,8 +226,6 @@ include 'php/session.php';
                             </div>
                         </div>
                     </div>
-
-                    
                     <div class="col-lg-4">
                         <div class="card card-inverse card-success">
                             <div class="card-body">
@@ -223,7 +235,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column carousel-item-next carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Secretsofthegurus.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span
+                                                    class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span>
+                                            </h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Secretsofthegurus.com</i>
                                             </div>
@@ -231,7 +245,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Secretsofthegurus.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span
+                                                    class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span>
+                                            </h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Secretsofthegurus.com</i>
                                             </div>
@@ -239,11 +255,43 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column active carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Secretsofthegurus.com</p>
-                                            <h3 class="text-white font-light">Code <span class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span></h3>
+                                            <h3 class="text-white font-light">Code <span
+                                                    class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span>
+                                            </h3>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Secretsofthegurus.com</i>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tab-pane" id="friend" role="tabpanel">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">List of Bestfreebusinesstools.com Friends</h4>
+                                    <h6 class="card-subtitle">Export data to Copy, CSV, Excel, PDF & Print</h6>
+                                    <div class="table-responsive m-t-40">
+                                        <table id="bestfreebusinesstools_table"
+                                            class="display table table-hover table-striped table-bordered"
+                                            cellspacing="0" width="100%">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>First</th>
+                                                    <th>Last</th>
+                                                    <th>Email</th>
+                                                    <th>Phone</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="content">
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
