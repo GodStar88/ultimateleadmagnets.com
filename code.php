@@ -269,7 +269,7 @@ include 'php/session.php';
                     </div>
                 </div>
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-12">
                         <div class="tab-pane" id="friend" role="tabpanel">
                             <div class="card">
@@ -297,7 +297,7 @@ include 'php/session.php';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <script src="assets/plugins/jquery/jquery.min.js"></script>
