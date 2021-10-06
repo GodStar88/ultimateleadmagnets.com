@@ -153,7 +153,7 @@ include 'php/session.php';
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Bestfreebusinesstools.com</p>
                                             <h5 class="text-white font-light">
-                                                https://bestfreebusinesstools.com/referral?ref=<?php echo $login_user; ?>
+                                                https://bestfreebusinesstools.com/referral?ref=<?php echo $login_user; ?></span>
                                             </h5>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Bestfreebusinesstools.com</i>
@@ -235,9 +235,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column carousel-item-next carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Secretsofthegurus.com</p>
-                                            <h3 class="text-white font-light">Code <span
-                                                    class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span>
-                                            </h3>
+                                            <h5 class="text-white font-light">
+                                                https://secretsofthegurus.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Secretsofthegurus.com</i>
                                             </div>
@@ -245,9 +245,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Secretsofthegurus.com</p>
-                                            <h3 class="text-white font-light">Code <span
-                                                    class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span>
-                                            </h3>
+                                            <h5 class="text-white font-light">
+                                                https://secretsofthegurus.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Secretsofthegurus.com</i>
                                             </div>
@@ -255,9 +255,9 @@ include 'php/session.php';
                                         <div class="carousel-item flex-column active carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Secretsofthegurus.com</p>
-                                            <h3 class="text-white font-light">Code <span
-                                                    class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus'); ?></span>
-                                            </h3>
+                                            <h5 class="text-white font-light">
+                                                https://secretsofthegurus.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
                                             <div class="text-white m-t-20">
                                                 <i>Please use Secretsofthegurus.com</i>
                                             </div>
