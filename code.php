@@ -159,6 +159,26 @@ include 'php/session.php';
                                                 <i>Please use Bestfreebusinesstools.com</i>
                                             </div>
                                         </div>
+                                        <div class="carousel-item flex-column">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Bestfreebusinesstools.com</p>
+                                            <h5 class="text-white font-light">
+                                                https://bestfreebusinesstools.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Bestfreebusinesstools.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column active carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Bestfreebusinesstools.com</p>
+                                            <h5 class="text-white font-light">
+                                                https://bestfreebusinesstools.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Bestfreebusinesstools.com</i>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -181,6 +201,26 @@ include 'php/session.php';
                                                 <i>Please use socialproofpower.com</i>
                                             </div>
                                         </div>
+                                        <div class="carousel-item flex-column">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">socialproofpower.com</p>
+                                            <h5 class="text-white font-light">
+                                                https://socialproofpower.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use socialproofpower.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column active carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">socialproofpower.com</p>
+                                            <h5 class="text-white font-light">
+                                                https://socialproofpower.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use socialproofpower.com</i>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -193,6 +233,26 @@ include 'php/session.php';
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
                                         <div class="carousel-item flex-column carousel-item-next carousel-item-left">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Secretsofthegurus.com</p>
+                                            <h5 class="text-white font-light">
+                                                https://secretsofthegurus.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Secretsofthegurus.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column">
+                                            <i class="fa fa-globe fa-2x text-white"></i>
+                                            <p class="text-white">Secretsofthegurus.com</p>
+                                            <h5 class="text-white font-light">
+                                                https://secretsofthegurus.com/referral?ref=<?php echo $login_user; ?></span>
+                                            </h5>
+                                            <div class="text-white m-t-20">
+                                                <i>Please use Secretsofthegurus.com</i>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item flex-column active carousel-item-left">
                                             <i class="fa fa-globe fa-2x text-white"></i>
                                             <p class="text-white">Secretsofthegurus.com</p>
                                             <h5 class="text-white font-light">
