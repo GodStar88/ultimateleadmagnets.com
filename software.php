@@ -99,12 +99,7 @@ include 'php/session.php';
                                 <span class="hide-menu">Code</span>
                             </a>
                         </li>
-                        <li>
-                            <a class="has-arrow waves-effect waves-dark" href="software" aria-expanded="false">
-                                <i class="mdi mdi-gauge"></i>
-                                <span class="hide-menu">Software Training</span>
-                            </a>
-                        </li>
+                      
                        
                         <li>
                             <a class="has-arrow waves-effect waves-dark" href="support" aria-expanded="false">
