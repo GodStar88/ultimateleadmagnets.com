@@ -151,7 +151,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://bestfreebusinesstools.com/register">Bestfreebusinesstools.com!</a></i>
+                                                <i>Please use <a href="https://bestfreebusinesstools.com/register">https://bestfreebusinesstools.com/register</a></i>
                                             </div>
                                         </div>
                                         <div class="carousel-item flex-column">
@@ -161,7 +161,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://bestfreebusinesstools.com/register">Bestfreebusinesstools.com!</a></i>
+                                                <i>Please use <a href="https://bestfreebusinesstools.com/register">https://bestfreebusinesstools.com/register</a></i>
                                             </div>
                                         </div>
                                         <div class="carousel-item flex-column active carousel-item-left">
@@ -171,7 +171,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Bestfreebusinesstools'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://bestfreebusinesstools.com/register">Bestfreebusinesstools.com!</a></i>
+                                                <i>Please use <a href="https://bestfreebusinesstools.com/register">https://bestfreebusinesstools.com/register</a></i>
                                             </div>
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="http://socialproofpower.com/register.php">socialproofpower.com!</a></i>
+                                                <i>Please use <a href="http://socialproofpower.com/register.php">http://socialproofpower.com/register</a></i>
                                             </div>
                                         </div>
                                         <div class="carousel-item flex-column">
@@ -203,7 +203,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="http://socialproofpower.com/register.php">socialproofpower.com!</a></i>
+                                                <i>Please use <a href="http://socialproofpower.com/register.php">http://socialproofpower.com/register</a></i>
                                             </div>
                                         </div>
                                         <div class="carousel-item flex-column active carousel-item-left">
@@ -213,7 +213,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'socialproofpower'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="http://socialproofpower.com/register.php">socialproofpower.com!</a></i>
+                                                <i>Please use <a href="http://socialproofpower.com/register.php">http://socialproofpower.com/register</a></i>
                                             </div>
                                         </div>
                                     </div>
@@ -234,7 +234,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus.com'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">Secretsofthegurus.com!</a></i>
+                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">https://secretsofthegurus.com/register</a></i>
                                             </div>
                                         </div>
                                         <div class="carousel-item flex-column">
@@ -244,7 +244,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus.com'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">Secretsofthegurus.com!</a></i>
+                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">https://secretsofthegurus.com/register</a></i>
                                             </div>
                                         </div>
                                         <div class="carousel-item flex-column active carousel-item-left">
@@ -254,7 +254,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus.com'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">Secretsofthegurus.com!</a></i>
+                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">https://secretsofthegurus.com/register</a></i>
                                             </div>
                                         </div>
                                     </div>
