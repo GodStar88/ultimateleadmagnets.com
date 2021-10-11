@@ -46,6 +46,7 @@
             PostAffTracker.track();
         } catch (err) {}
     </script>
+    <link href='http://socialproofpower.com/popup/css/jquery.toast.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -107,6 +108,9 @@
     <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
     <script src="assets/plugins/icheck/icheck.min.js"></script>
     <script src="assets/plugins/icheck/icheck.init.js"></script>
+    <script src="http://socialproofpower.com/popup/jquery.min.js"></script>
+    <script src="http://socialproofpower.com/popup/jquery.toast.js"></script>
+    <script src="http://socialproofpower.com/popup/message.js"></script>
 </body>
 
 
