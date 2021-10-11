@@ -35,6 +35,19 @@
             margin: auto;
             margin-bottom: 10px;
         }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
     <script>
         document.write(unescape("%3Cscript id='pap_x2s6df8d' src='" + (("https:" == document.location.protocol) ? "https://" : "http://") +
@@ -72,10 +85,8 @@
                 </div>
 
                 <div class="row" style="margin-top: 30px;">
-                    <div class="col-md-12">
-                        <video width="100%" height="100%" controls>
-                            <source src="video/LSC Promo1.mp4" type="video/mp4">
-                        </video>
+                    <div class="col-md-12 video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qbS3utktitw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
