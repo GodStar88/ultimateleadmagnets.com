@@ -60,7 +60,7 @@
                             </div>
                             <div class="col-md-6">
                                 <?php
-                                   if (strpos($_SERVER['REQUEST_URI'], "secretsofthegurus") === true){
+                                    if (strpos($_SERVER['HTTP_HOST'], "secretsofthegurus") !== false){
                                         echo('<input class="form-control" type="text" required="" placeholder="Ultimateleadmagnets Code" name="code" id="sign_code" required> ');
                                     }
                                 ?>
