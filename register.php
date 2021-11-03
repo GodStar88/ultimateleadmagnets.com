@@ -59,7 +59,11 @@
                                 <input class="form-control" type="password" required="" placeholder="Password" name="password" id="sign_password" required>
                             </div>
                             <div class="col-md-6">
-                                <input class="form-control" type="password" required="" placeholder="Confirm Password" name="password" required>
+                                <?php
+                                   if (strpos($_SERVER['REQUEST_URI'], "secretsofthegurus") === false){
+                                        echo('<input class="form-control" type="text" required="" placeholder="Ultimateleadmagnets Code" name="code" id="sign_code" required> ');
+                                    }
+                                ?>
                             </div>
                         </div>
 
