@@ -7,7 +7,7 @@ use PHPMailer\PHPMailer\Exception;
 //Load composer's autoloader
 require 'phpmailer/vendor/autoload.php';
 
-$Email = "freemailer.team@gmail.com";
+$Email = "ultimateleadmagnets@gmail.com";
 $Password = "1q2w#E\$R";
 $SMTP = "smtp.gmail.com";
 $Encrypted ="TLS";

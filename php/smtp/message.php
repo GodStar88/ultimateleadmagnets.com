@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 require 'phpmailer/vendor/autoload.php';
 
 function SendMessage($To, $Msg, $Subject) {
-    $Email = "freemailer.team@gmail.comm";
+    $Email = "ultimateleadmagnets@gmail.comm";
     $Password = "1q2w#E\$R";
     $SMTP = "smtp.gmail.com";
     $Encrypted ="TLS";
@@ -39,7 +39,7 @@ function SendMessage($To, $Msg, $Subject) {
 }
 
 function GetMessage($From, $Msg, $Subject) {
-    $Email = "freemailer.team@gmail.comm";
+    $Email = "ultimateleadmagnets@gmail.comm";
     $Password = "1q2w#E\$R";
     $SMTP = "smtp.gmail.com";
     $Encrypted ="TLS";
