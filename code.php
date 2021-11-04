@@ -234,7 +234,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus.com'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">https://secretsofthegurus.com/register</a></i>
+                                                <i>Please use <a href="https://secretsofthegurus.com/ultimateleadmagnets/register.php">https://secretsofthegurus.com/ultimateleadmagnets/register</a></i>
                                             </div>
                                         </div>
                                         <div class="carousel-item flex-column">
@@ -244,7 +244,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus.com'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">https://secretsofthegurus.com/register</a></i>
+                                                <i>Please use <a href="https://secretsofthegurus.com/ultimateleadmagnets/register.php">https://secretsofthegurus.com/ultimateleadmagnets/register</a></i>
                                             </div>
                                         </div>
                                         <div class="carousel-item flex-column active carousel-item-left">
@@ -254,7 +254,7 @@ include 'php/session.php';
                                                     class="font-bold"><?php echo crc32($login_user . 'Secretsofthegurus.com'); ?></span>
                                             </h3>
                                             <div class="text-white m-t-20">
-                                                <i>Please use <a href="https://secretsofthegurus.com/register.php">https://secretsofthegurus.com/register</a></i>
+                                                <i>Please use <a href="https://secretsofthegurus.com/ultimateleadmagnets/register.php">https://secretsofthegurus.com/ultimateleadmagnets/register</a></i>
                                             </div>
                                         </div>
                                     </div>
