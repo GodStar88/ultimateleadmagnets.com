@@ -92,7 +92,7 @@
                     <img src="assets/images/people.jpg" alt="" width="400px" height="200px" style="margin: auto; margin-top: 50px;">
                 </div>
                 <div class="row">
-                    <h3 class="fontcolor" style="margin: auto; margin-top: 50px;">I also wanted them to get lots of value and have a great experience to provide that “know-like-trust” factor so I would be the “Good Guy” they would trust and buy from again and again. I tried different ebooks and videos and educational courses and, and, and ….   my conversions were still poor :( </h3>
+                    <h3 class="fontcolor" style="margin: auto; margin-top: 50px;">I also wanted them to get lots of value and have a great experience to provide that “know-like-trust” factor so I would be the “Good Guy” they would trust and buy from me again and again. I tried different ebooks and videos and educational courses and, and, and ….   my conversions were still poor :( </h3>
                 </div>
                 <div class="row">
                     <h1 class="fontcolor" style="margin: auto; margin-top: 50px;">But then I realized something!</h1>
