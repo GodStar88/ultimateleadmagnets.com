@@ -147,7 +147,7 @@
                     <h3 style="color:white">Question: What kind of Web Sites would I be giving away?</h3>
                     <h3 style="color:white">Answer: These are Web sites that anyone in the Internet Marketing, Make Money online, Affiliate Marketing, MLM/Netowrk Marketing, Digital Marketing, and Local Business Owners would LOVE to have access to, especially for FREE!</h3>
                     <h3 style="color:white">How long is this offer good for?</h3>
-                    <h3 style="color:white">Answer: Currently, space is limited, especially at the launch price. We will be going to a monthly recurring price after launch. </br></br> Testimonials </br></br> Buy Button</br>Intro price $9 or $11</h3>
+                    <h3 style="color:white">Answer: Currently, space is limited, especially at the launch price. We will be going to a monthly recurring price after launch.</br></br> Buy Button</br>Intro price $9 or $11</h3>
                 </div>
                 
                 <div class="text-center">
